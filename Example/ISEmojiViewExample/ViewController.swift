@@ -18,7 +18,7 @@ class ViewController: UITableViewController {
         
         switch segue.identifier {
         case "EmojiKeyboardWithPageControl":
-            keyboardViewController.bottomType = .pageControl
+            keyboardViewController.bottomType = .categories
         case "EmojiKeyboardWithCategories":
             keyboardViewController.bottomType = .categories
         case "EmojiKeyboardWithPageControlAndCustomEmojis":
